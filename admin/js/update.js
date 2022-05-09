@@ -64,7 +64,7 @@ $(document).ready(function () {
             success: function (response) {
                 console.log(response);
                 if(response.message === 'success'){
-                    alert("Profile has successfully been updated");
+                    window.location = "./dashboard.php";
                 }
             },
             error: function (request, status, error) {

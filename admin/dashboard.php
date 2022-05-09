@@ -4,6 +4,7 @@ if (!isset($_SESSION['user']) or $_SESSION['permission'] !== 'admin') {
     header("Location: index.php");
 }
 
+
 include("../database.php");
 
 $queryUserData = "select u.id, u.name, u.surname, u.avatar, con.email, con.address, con.phone,ab.content as about from users u left outer join contacts con ON
