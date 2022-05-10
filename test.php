@@ -1,2 +1,2 @@
 <?php
-echo hash("sha256", "admin123");
+echo hash("sha256", "Azerbaycan1234567892020$");

@@ -41,6 +41,7 @@ $user = $userDataResult->fetch_assoc();
 </head>
 <body>
 <script src="set_sliders.js"></script>
+<script src="hide_disclaimer.js"></script>
 
 <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
@@ -132,10 +133,10 @@ $user = $userDataResult->fetch_assoc();
 
 
 <!-- contact section start -->
-<section class="contact" id="contact">
+<section class="contact" id="">
     <div class="max-width">
         <h2 class="title">Contact me</h2>
-        <div class="contact-content">
+        <div class="contact-content" id="contact">
             <div class="column left">
                 <div class="text">Get in Touch</div>
                 <p>If you have any question or in any case if you want to contact to me, Please fill forms below and send your message. I'll touch you in a short time when available. Thank you!
@@ -197,5 +198,6 @@ $user = $userDataResult->fetch_assoc();
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
